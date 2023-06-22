@@ -1,4 +1,6 @@
 import './globals.css'
+import  Header  from './components/header' 
+import StyledComponentsRegistry from './lib/registry'
 
 export const metadata = {
   title: 'Create Next App',
@@ -13,9 +15,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
+        <StyledComponentsRegistry>
 
+        <Header/>
         {children}
-        
+
+        </StyledComponentsRegistry>
         </body>
     </html>
   )
