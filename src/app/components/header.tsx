@@ -21,8 +21,21 @@ const Wrapper = styled.div`
     justify-content: space-between;
     padding: 1em;
     gap: 1em;
-    ;
-`
-const Butão = styled.button`
+    
+    button{
+        font-size: 2.2em;
+        color: black;
+        
+        & :hover {
+            background-color: black;
+            color: white
+        }
 
+    }
+        
+    a{
+        text-decoration: none;
+        color: black;
+
+    }
 `
