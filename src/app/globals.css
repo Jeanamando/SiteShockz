@@ -1,4 +1,9 @@
 *{
-  margin: 0;
-background-color: rgb(9, 180, 123);
+box-sizing: border-box;
+margin: 0;
+text-align: center;
+}
+
+body{
+  background-color: rgb(255, 255, 255);
 }

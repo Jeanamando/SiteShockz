@@ -1,4 +1,4 @@
-
+import Template from "./sobre"
 export const metadata = {
   title: 'Sobre',
   description: 'Page sobre',
@@ -6,6 +6,9 @@ export const metadata = {
 
 export default function Sobre() {
   return (
-    <h1>página sobre</h1>
+
+    <Template/>
   )
+  
 }
+
