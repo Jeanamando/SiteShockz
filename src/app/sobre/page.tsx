@@ -3,12 +3,12 @@ export const metadata = {
   title: 'Sobre',
   description: 'Page sobre',
 }
-
-export default function Sobre() {
-  return (
-
-    <Template/>
-  )
   
-}
 
+    export default function Sobre() {
+      return (
+        <div>
+        <Template/>
+        </div>
+        )
+      }
